@@ -638,8 +638,8 @@ def test_ordinalclip_model(model_path, test_csv, test_dir, output_dir='./ordinal
 if __name__ == "__main__":
     # Set up paths for OrdinalCLIP testing
     model_path = './output_ordinalclip/ordinalclip_best.pth'  # Update this path
-    # test_csv = '/home/meem/backup/Age Datasets/UTKFace/crop_part1/test_annotations.csv'
-    # test_dir = '/home/meem/backup/Age Datasets/UTKFace/crop_part1/test'
+    # test_csv = '/home/meem/backup/Age Datasets/test_annotations.csv'
+    # test_dir = '/home/meem/backup/Age Datasets/test'
     test_csv = '/home/meem/backup/filtered/unified_age_dataset/test_annotations.csv'
     test_dir = '/home/meem/backup/filtered/unified_age_dataset/test'
     output_dir = './ordinalclip_test_results'
