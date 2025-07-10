@@ -3,6 +3,9 @@
 
 # In[2]:
 
+"""
+This code works for all fine-tuned Resnet models, except the one trained using DLDLv2 loss function
+"""
 
 import os
 import sys
