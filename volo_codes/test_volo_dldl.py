@@ -903,8 +903,8 @@ def main():
         torch.cuda.manual_seed_all(seed)
     
     # Define paths
-    test_csv = '/home/meem/backup/Age Datasets/UTKFace/crop_part1/test_annotations.csv'
-    test_dir = '/home/meem/backup/Age Datasets/UTKFace/crop_part1/test'
+    test_csv = '/home/meem/backup/Age Datasets/test_annotations.csv'
+    test_dir = '/home/meem/backup/Age Datasets/test'
     
     # Use your trained model file
     model_path = 'output/volo_d1_dldlv2_final.pth'  # Change to your model path
