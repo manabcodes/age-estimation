@@ -652,10 +652,10 @@ def visualize_dldlv2_distributions(lambda_val=1.0, sigma_values=[1.0, 2.0, 5.0])
 
 # Configuration
 config = {
-    'train_csv': '/home/meem/backup/Age Datasets/UTKFace/crop_part1/train_annotations.csv',
-    'val_csv': '/home/meem/backup/Age Datasets/UTKFace/crop_part1/val_annotations.csv',
-    'train_dir': '/home/meem/backup/Age Datasets/UTKFace/crop_part1/train',
-    'val_dir': '/home/meem/backup/Age Datasets/UTKFace/crop_part1/val',          # Update with your path
+    'train_csv': '/home/meem/backup/Age Datasets/train_annotations.csv',
+    'val_csv': '/home/meem/backup/Age Datasets/val_annotations.csv',
+    'train_dir': '/home/meem/backup/Age Datasets/train',
+    'val_dir': '/home/meem/backup/Age Datasets/val',          # Update with your path
     'output': './output',
     'checkpoint_dir': './checkpoints_resnet50_dldlv2',
     'batch_size': 16,                              # Increased batch size for ResNet50
