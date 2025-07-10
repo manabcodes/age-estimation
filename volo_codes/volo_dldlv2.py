@@ -494,10 +494,10 @@ config = {
     'model': 'volo_d1',
     'checkpoint': '/home/meem/backup/d1_224_84.2.pth.tar',
     # Data paths - UPDATE THESE TO YOUR PATHS
-        # 'train_csv': '/home/meem/backup/Age Datasets/UTKFace/crop_part1/train_annotations.csv',
-        # 'val_csv': '/home/meem/backup/Age Datasets/UTKFace/crop_part1/val_annotations.csv',
-        # 'train_dir': '/home/meem/backup/Age Datasets/UTKFace/crop_part1/train',
-        # 'val_dir': '/home/meem/backup/Age Datasets/UTKFace/crop_part1/val',
+        # 'train_csv': '/home/meem/backup/Age Datasets/train_annotations.csv',
+        # 'val_csv': '/home/meem/backup/Age Datasets/val_annotations.csv',
+        # 'train_dir': '/home/meem/backup/Age Datasets/train',
+        # 'val_dir': '/home/meem/backup/Age Datasets/val',
 
 
     'train_csv': '/home/meem/filtered/unified_age_dataset/train_annotations.csv',
