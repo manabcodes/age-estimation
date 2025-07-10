@@ -904,10 +904,10 @@ def visualize_unimodal_concentrated():
 # Configuration
 config = {
     'model': 'resnet50',  # Changed from 'volo_d1' to 'resnet50'
-    'train_csv': '/home/meem/backup/Age Datasets/UTKFace/crop_part1/train_annotations.csv',
-    'val_csv': '/home/meem/backup/Age Datasets/UTKFace/crop_part1/val_annotations.csv',
-    'train_dir': '/home/meem/backup/Age Datasets/UTKFace/crop_part1/train',
-    'val_dir': '/home/meem/backup/Age Datasets/UTKFace/crop_part1/val',
+    'train_csv': '/home/meem/backup/Age Datasets/train_annotations.csv',
+    'val_csv': '/home/meem/backup/Age Datasets/val_annotations.csv',
+    'train_dir': '/home/meem/backup/Age Datasets/train',
+    'val_dir': '/home/meem/backup/Age Datasets/val',
     'output': './output_resnet_unimodal',  # Changed output directory
     'checkpoint_dir': './checkpoints_resnet_unimodal',  # Changed checkpoint directory
     'batch_size': 16,  # Increased from 16 to 32 (ResNet can handle larger batches)
