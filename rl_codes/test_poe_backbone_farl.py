@@ -879,8 +879,8 @@ if __name__ == "__main__":
         # Jupyter mode - use default arguments
         class Args:
             model_path = './output_poe_farl/poe_farl_best.pth'  # Update this path
-            test_csv = '/home/meem/backup/Age Datasets/UTKFace/crop_part1/test_annotations.csv'
-            test_dir = '/home/meem/backup/Age Datasets/UTKFace/crop_part1/test'
+            test_csv = '/home/meem/backup/Age Datasets/test_annotations.csv'
+            test_dir = '/home/meem/backup/Age Datasets/test'
             output_dir = './poe_farl_test_results'
             farl_weights = None  # Path to FaRL backbone weights (optional)
             num_samples = 15
@@ -895,9 +895,9 @@ if __name__ == "__main__":
         parser = argparse.ArgumentParser(description='Test POE-FaRL age estimation model')
         parser.add_argument('--model_path', type=str, default='./output_poe_farl/poe_farl_best.pth',
                             help='Path to the trained POE-FaRL checkpoint')
-        parser.add_argument('--test_csv', type=str, default='/home/meem/backup/Age Datasets/UTKFace/crop_part1/test_annotations.csv',
+        parser.add_argument('--test_csv', type=str, default='/home/meem/backup/Age Datasets/test_annotations.csv',
                             help='Path to CSV file with test annotations')
-        parser.add_argument('--test_dir', type=str, default='/home/meem/backup/Age Datasets/UTKFace/crop_part1/test',
+        parser.add_argument('--test_dir', type=str, default='/home/meem/backup/Age Datasets/test',
                             help='Path to directory containing test images')
         parser.add_argument('--output_dir', type=str, default='./poe_farl_test_results',
                             help='Directory to save test results and visualizations')
