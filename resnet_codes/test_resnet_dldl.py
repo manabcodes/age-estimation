@@ -1127,8 +1127,8 @@ if __name__ == "__main__":
         # Use default args in Jupyter rather than trying to parse
         class Args:
             model_path = '/home/meem/backup/Age Datasets/Resnet-codes/output/resnet50_dldlv2_final.pth'
-            test_csv = '/home/meem/backup/Age Datasets/UTKFace/crop_part1/test_annotations.csv'
-            test_dir = '/home/meem/backup/Age Datasets/UTKFace/crop_part1/test'
+            test_csv = '/home/meem/backup/Age Datasets/test_annotations.csv'
+            test_dir = '/home/meem/backup/Age Datasets/test'
             output_dir = './resnet50_test_results'
             num_classes = 122
             num_samples = 15
