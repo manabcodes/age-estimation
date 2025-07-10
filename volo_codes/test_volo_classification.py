@@ -2,7 +2,9 @@
 # coding: utf-8
 
 # In[1]:
-
+"""
+This code works for all volo models except volo trained with DLDLv2 loss function
+"""
 
 # Inside your test_classification_model function, add this code where you create the scatter plot
 # (or create a new function to generate this specific visualization)
@@ -736,8 +738,8 @@ def main():
         torch.cuda.manual_seed_all(seed)
     
     # Define paths
-    test_csv = '/home/meem/backup/Age Datasets/UTKFace/crop_part1/test_annotations.csv'
-    test_dir = '/home/meem/backup/Age Datasets/UTKFace/crop_part1/test'
+    test_csv = '/home/meem/backup/Age Datasets/test_annotations.csv'
+    test_dir = '/home/meem/backup/Age Datasets/test'
     
     # Use your trained model file
     model_path = 'output/volo_d1_gradual_final.pth'  # Change to your model path
