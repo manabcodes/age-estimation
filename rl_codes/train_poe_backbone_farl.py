@@ -457,10 +457,10 @@ def main():
     # Configuration
     config = {
         # Data paths - UPDATE THESE TO YOUR PATHS
-        'train_csv': '/home/meem/backup/Age Datasets/UTKFace/crop_part1/train_annotations.csv',
-        'val_csv': '/home/meem/backup/Age Datasets/UTKFace/crop_part1/val_annotations.csv',
-        'train_dir': '/home/meem/backup/Age Datasets/UTKFace/crop_part1/train',
-        'val_dir': '/home/meem/backup/Age Datasets/UTKFace/crop_part1/val',
+        'train_csv': '/home/meem/backup/Age Datasets/train_annotations.csv',
+        'val_csv': '/home/meem/backup/Age Datasets/val_annotations.csv',
+        'train_dir': '/home/meem/backup/Age Datasets/train',
+        'val_dir': '/home/meem/backup/Age Datasets/val',
         
         # FaRL model path
         'farl_model_path': './FaRL-Base-Patch16-LAIONFace20M-ep64.pth',
