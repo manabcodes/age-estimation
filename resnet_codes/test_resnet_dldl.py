@@ -1141,9 +1141,9 @@ if __name__ == "__main__":
         parser = argparse.ArgumentParser(description='Test age classification model and generate visualizations')
         parser.add_argument('--model_path', type=str, default='Resnet-codes/output/resnet50_dldlv2_final.pth',
                             help='Path to the model checkpoint file')
-        parser.add_argument('--test_csv', type=str, default='/home/meem/backup/Age Datasets/UTKFace/crop_part1/test_annotations.csv',
+        parser.add_argument('--test_csv', type=str, default='/home/meem/backup/Age Datasets/test_annotations.csv',
                             help='Path to CSV file with test annotations')
-        parser.add_argument('--test_dir', type=str, default='/home/meem/backup/Age Datasets/UTKFace/crop_part1/test',
+        parser.add_argument('--test_dir', type=str, default='/home/meem/backup/Age Datasets/test',
                             help='Path to directory containing test images')
         parser.add_argument('--output_dir', type=str, default='./resnet50_test_results',
                             help='Directory to save test results and visualizations')
